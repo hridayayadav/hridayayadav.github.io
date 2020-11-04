@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.menubar{
+    display:flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+cursor: pointer;
+}
+.menu-list{
+width:50%;
+
+display: flex;
+align-items: center;
+}
+.menu-list li{
+list-style: none;
+margin:0;
+padding: 5px;
+
+}
+.menu-list li a{
+
+    text-decoration: none;
+    color: white;
+}
+.menu-list li a:hover{
+color: gray;
+    
+}
+.rightmenu{
+width: 50%;
+padding: 0 23px;
+    text-align: right;
+}
+.logo{
+    padding:0%;
+    margin: 0%;
+display:flex;
+    width: 20%;
+    justify-content: center;
+    vertical-align: auto;
+    align-items: center;   
+}
+.logo img{
+margin: 0%;
+padding: 0%;
+    width:37%;
+    display:flex;
+    border-radius: 50px;
+}
+.background{
+background: rgba(0, 0, 0, 0.7) url('bg.jpg');
+background-size: 280px;
+background-blend-mode: color-dodge;
+background-repeat: initial;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.box-main{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+   margin: auto;
+   height: 80%;
+
+}
+.text-big{
+    font-size: 22px;
+    padding: 3px;
+}
+.FirstHalf{
+    padding: 2px 8px;
+width: 75%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100vh;
+}
+.secondhalf{
+width: 30%;
+}
+
+.secondhalf  img{
+width: 250px;
+border: 4px solid white;
+border-radius: 200px;
+display: block;
+margin: auto;
+   }
+.btn{
+padding: 8px 20px;
+margin: 7px 0;
+border: 2px solid white;
+background: none;
+color: white;
+cursor: pointer;
+}
+.secRight{
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+margin: auto;
+}
+.sectionsubTag{
+  border: 2px solid white;
+}
+.paras{
+    padding-left: 150px;
+    color: black;
+    padding-top: 391px;
+    
+}
+.thumbnail{
+padding-top: 400px;
+padding-left: 0px;
+}
+.paras p{
+border: 2px solid white;
+border-width: thin;
+box-sizing: border-box;
+background-color: white;
+}
+.secLeft{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.thumbnail1{
+
+    padding-top: 850px;
+    padding-left: 50px;
+}
+.paras1{
+    border: 2px solid cornflowerblue;
+    border-width: thin;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+.centre{
+display: flex;
+padding-top: 750px;
+padding-left: 200px;
+}
