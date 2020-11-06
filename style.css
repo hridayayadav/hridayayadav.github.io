@@ -26,7 +26,7 @@ padding: 5px;
 .menu-list li a{
 
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .menu-list li a:hover{
 color: gray;
@@ -60,13 +60,12 @@ background-blend-mode: color-dodge;
 background-repeat: initial;
 background-size: cover;
 background-attachment: fixed;
-background-size: cover;
 background-color: #90b1b1;
 }
 
 .box-main{
 
-    color: black;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,9 +102,9 @@ margin: auto;
 .btn{
 padding: 8px 20px;
 margin: 7px 0;
-border: 2px solid black;
+border: 2px solid white;
 background: none;
-color: black;
+color: white;
 cursor: pointer;
 }
 .secRight{
@@ -148,10 +147,10 @@ opacity: 70%;
    
 }
 .paras1{
-    border: 2px solid cornflowerblue;
+    border: 2px solid rgb(182, 44, 74);
     border-width: thin;
     box-sizing: border-box;
-    background-color: white;
+    background-color:  rgb(182, 44, 74);
 
 }
 .centre{
@@ -160,10 +159,19 @@ padding-top: 750px;
 padding-left: 100px;
 }
 .thumbnail img{
-background-color: blue;
+background-color:  rgb(182, 44, 74);
+color:  rgb(182, 44, 74);
     opacity: 30%;
 }
 .contact{
     background-color: #e3ebec;
     height: 200px;
+}
+
+.back{
+    background: rgba(0, 0, 0, 0.7) url('img91c.jpg');
+    background-size: cover;
+    background-blend-mode: color-burn;
+    background-color: #d2d5c175;
+    background-attachment: fixed;
 }
