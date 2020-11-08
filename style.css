@@ -60,7 +60,7 @@ background-blend-mode: color-dodge;
 background-repeat: initial;
 background-size: cover;
 background-attachment: fixed;
-background-color: #90b1b1;
+background-color:#8f8d78;
 }
 
 .box-main{
@@ -116,11 +116,11 @@ justify-content: space-evenly;
 margin: auto;
 }
 .sectionsubTag{
-  border: 2px solid white;
+
 }
 .paras{
     padding-left: 150px;
-    color: black;
+    color: white;
     padding-top: 391px;
     
 }
@@ -129,10 +129,7 @@ padding-top: 400px;
 padding-left: 0px;
 }
 .paras p{
-border: 2px solid white;
-border-width: thin;
-box-sizing: border-box;
-background-color: white;
+
 }
 .secLeft{
     height: 500px;
@@ -142,15 +139,12 @@ background-color: white;
     flex-direction: row-reverse;
 }
 .thumbnail1{
-opacity: 70%;
+
     padding-top: 850px;
    
 }
 .paras1{
-    border: 2px solid rgb(182, 44, 74);
-    border-width: thin;
-    box-sizing: border-box;
-    background-color:  rgb(182, 44, 74);
+   
 
 }
 .centre{
@@ -174,4 +168,7 @@ color:  rgb(182, 44, 74);
     background-blend-mode: color-burn;
     background-color: #d2d5c175;
     background-attachment: fixed;
+}
+.rename img{
+opacity: 70%;
 }
