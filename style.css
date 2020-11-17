@@ -10,6 +10,7 @@ justify-content: center;
 position: sticky;
 top: 0;
 cursor: pointer;
+
 }
 .menu-list{
 width:70%;
@@ -178,6 +179,8 @@ position: absolute;
 cursor: pointer;
 right: 5%;
 top: 15px;
+display: flex;
+
 }
 .line{
     width: 33px;
@@ -191,6 +194,8 @@ top: 15px;
     }
     .menubar{
         flex-direction: column;
+        transition: all 0.5s ease-out;
+        height: 250px;
     }
     .rightmenu{
         text-align: center;
@@ -199,7 +204,9 @@ top: 15px;
         width: 100%;
     }
     .burger{
-        display: block;
+         
+             display: block;
+        
     }
     .box-main{
         flex-direction: column-reverse;
@@ -244,5 +251,11 @@ top: 15px;
        justify-content: center;
        align-items: center;
 
+   }
+   .h-nav-resp{
+       height: 72px;
+   }
+   .v-class-resp{
+     opacity: 0;
    }
 }
