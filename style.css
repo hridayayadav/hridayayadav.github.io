@@ -222,7 +222,7 @@ display: flex;
        flex-direction: column-reverse;
    }
    .FirstHalf{
-      height: 25vh;
+      height: 30vh;
    }
    .buttons{
        align-items: center;
